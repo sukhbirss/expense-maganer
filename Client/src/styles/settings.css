@@ -1,0 +1,9 @@
+.btn{
+	width: 200px;
+}
+#text{
+	width: 400px;
+	height: 40px;
+	border:1px solid black;
+	border-radius: 2px;
+}

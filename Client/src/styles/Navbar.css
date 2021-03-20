@@ -1,0 +1,29 @@
+.navcontainer{
+	width: 17vw;
+	height: 100vh;
+	border-right: 2px solid black;
+	margin:0;
+	padding: 2px;
+	display:flex;
+	flex-direction: column;
+	position: fixed;
+	background-color: white;
+
+}
+.headline{
+	width: 100vw;
+	height: 7vh;
+	border-bottom: 2px solid black;
+	margin:0;
+	padding: 2px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+
+}
+.button{
+	height: 3.3rem;
+	margin-top: 0.2rem;
+	width: 100%;
+}

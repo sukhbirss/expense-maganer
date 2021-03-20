@@ -1,0 +1,89 @@
+.wrapper{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #edebe4;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .whitebox{
+	height: 50vh;
+	width: 35vw;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 38px, rgba(0, 0, 0, 0.22) 0px 0px 12px;
+	margin: auto;
+	margin-bottom: 0;
+	background-color: white;
+}
+.adjacentbox{
+	height: 5vh;
+	width: 34vw;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	border:1px solid black;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 1rem;
+	background-color: white;
+
+}
+}
+@media screen and (max-width:1000px) and (min-width:600px) {
+  .whitebox{
+	height: 50vh;
+	width: 70vw;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 38px, rgba(0, 0, 0, 0.22) 0px 0px 12px;
+	margin: auto;
+	margin-bottom: 0;
+	background-color: white;
+
+}
+.adjacentbox{
+	height: 5vh;
+	width: 70vw;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	border:1px solid black;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 1rem;
+	background-color: white;
+
+}
+
+}@media screen and (max-width: 600px) {
+  .whitebox{
+	height: 50vh;
+	width: 80vw;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 38px, rgba(0, 0, 0, 0.22) 0px 0px 12px;
+	margin: auto;
+	margin-bottom: 0;
+	background-color: white;
+
+}
+.adjacentbox{
+	height: 5vh;
+	width: 80vw;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	border:1px solid black;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 1rem;
+	background-color: white;
+
+}
+}
+
+.text {
+    width: 95%;
+    border: solid 1px #dbdbdb;
+    height: 45px;
+    border-radius: 5px
+
+}
