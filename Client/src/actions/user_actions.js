@@ -20,6 +20,7 @@ export const loginUser = (dataToSubmit) => dispatch => {
                         })
                  })         
 }
+
 export const signup = (dataToSubmit) => dispatch => {
     
      axios.post('/users/signup',dataToSubmit)           
@@ -70,6 +71,8 @@ export const updateMe = (data) => dispatch => {
                           })
                 .catch((err)=>(err.response))                        
 }
+
+//softDelete post
 export const deleteMyPost = (dataToSubmit) =>{
 
 store.dispatch({
